@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - MA03 - Question 1</title>
+    <title>JavaScript - MA03 - Question 1 - Ruben Hansen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 <body>
 
 <!--Contact Form-->
-
+<section>
+    <div class="box">
+        <div class="input-wrap">
+            <input id="first-name" type="text" placeholder="First Name (John)" required>
+        </div>
+        <div class="input-wrap">
+            <input id="last-name" type="text" placeholder="Last name (Doe)" required>
+        </div>
+        <div class="input-wrap">
+            <input id="phone" type="tel" placeholder="Phone number (77755333)" required>
+        </div>
+        <div class="input-wrap">
+            <input id="email" type="email" placeholder="E-mail (test@example.com)" required>
+        </div>
+        <div class="input-wrap">
+            <button onclick="checkValidation()"> Submit </button>
+        </div>
+    </div>
+</section>
 
 <script src="script.js"></script>
 </body>

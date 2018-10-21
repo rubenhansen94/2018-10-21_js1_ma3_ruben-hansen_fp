@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    background: #62c1e7;
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.input-wrap {
+    width: 90%;
+    margin: 20px auto;
+    /* background: #eee; */
+    /*margin-top: 60px;*/
+    padding-top: 40px;
+}
+
+input {
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    padding: 15px 0;
+    padding-left: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:hover {
+    outline: auto;
+    outline-color: #fff;
+}
+
+button {
+    border: none;
+    background: #E5B181;
+    padding: 15px 50px;
+    border-radius: 7px;
+    font-size: 1rem;
+    outline: none;
+    color: white;
+}
+button:hover {
+    border: 2px solid #fff;
+}
+
+.invalid {
+    border: 2px solid rgb(255, 38, 0);
+}
